@@ -11,54 +11,39 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Master's in Computer Science (Interaction, Graphics and Design), Institut Polytechnique de Paris, 2024-2026
+* Bachelor's in Computer Science, Université de Bordeaux, 2021-2024
+* Bachelor's in Applied Foreign Languages (English-Japanese), Université Bordeaux Montaigne, 2018-2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Computer Science and Mathematics tutoring, Université de Bordeaux, 2023-2024
+  * Teaching skills
+  * In-depth knowledge of the subject taught
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Computer Science Internship, LaBRI, June 2022 - July 2022
+  * Image processing and image analysis
+  * Implemented algorithm for edge detection in images
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Temporary heritage assistant, CAPC, Contemporary Art Museum, October 2021 - December 2021
+* Journalist assistant Internship, CINEMAXX, March 2021 - April 2021
+  * Article translation
+  * Video subtitling
+  * Website design and management
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* HTML, CSS, javascript, PSQL, D3.js
+* Python, C, C++, C#, java, OCaml
+* OpenGL
+* Qt Creator, Android Studio
+* Unity, Godot
+* Cmake, make
+* Git
 
-Publications
+Projects
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<ul>{% for post in site.portfolio %}
+  {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
