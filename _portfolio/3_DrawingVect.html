@@ -1,0 +1,32 @@
+---
+title: "Line Drawing Vectorization"
+excerpt: "Paper implementation of Fidelity vs. Simplicity: 
+A Global Approach to Line Drawing Vectorization by Favreau et al.<br/><img src='/images/portfolio/DrawingVect.png'>"
+collection: portfolio
+---
+
+This project implements part of the algorithm from Fidelity vs. Simplicity: A Global Approach 
+to Line Drawing Vectorization (Favreau et al., 2016). The goal was to automatically convert 
+raster line drawings into vectorized curve networks that balance accuracy with simplicity, 
+producing a vectorized image.
+
+<img src='/images/portfolio/DrawingVect.png'>
+
+<h2>Key Features</h2>
+
+<ul>
+    <li>Developed a region-based skeletonization algorithm, more robust to noise and sketchy 
+        drawings than using simple thinning.</li>
+    <li>Constructed a topological graph from skeletonized drawings using node detection 
+        (endpoints, junctions, sharp turns) and edge tracing.</li>
+    <li>Applied adaptive Bézier curve fitting with recursive splitting to achieve high fidelity 
+        to input drawings.</li>
+</ul>
+
+<h2>Results</h2>
+<ul>
+    <li>Achieved high-fidelity curve networks from raster input.</li>
+    <li>Region-based skeletonization outperformed thinning on noisy/sketchy drawings.</li>
+    <li>Outputs tended to create extra short curves, suggesting hypergraph optimization could 
+        simplify results.</li>
+</ul>

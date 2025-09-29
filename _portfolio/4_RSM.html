@@ -1,0 +1,31 @@
+---
+title: "Reflective Shadow Maps"
+excerpt: "Paper implementation of  Reflective Shadow Maps by 
+Carsten Dachsbacher and Marc Stamminger.<br/><img src='/images/portfolio/RSM.png'>"
+collection: portfolio
+---
+
+I implemented Reflective Shadow Maps (RSMs), a real-time rendering technique 
+introduced by Carsten Dachsbacher and Marc Stamminger. RSMs approximate one-bounce indirect 
+illumination, a crucial part of global illumination, by extending standard shadow maps to store 
+additional per-pixel data (depth, position, normal, flux).
+
+<img src='/images/portfolio/RSM.png'>
+
+<h2>Key Features</h2>
+<ul>
+    <li>Developed a Frame Buffer Object (FBO) manager to generate shadow maps with 
+        extended attributes.</li>
+    <li>Implemented multi-pass rendering: shadow map generation, direct lighting, 
+        low-resolution indirect lighting, and full-resolution interpolation.</li>
+    <li>Designed sampling patterns and jittering for improved indirect illumination quality.</li>
+    <li>Used OpenGL shaders to handle light projection, transformations, 
+        shadow computations, and flux calculations.</li>
+</ul>
+
+<h2>Results</h2>
+<ul>
+    <li>Achieved realistic indirect illumination effects with RSMs, combining direct and 
+        indirect light contributions.</li>
+    <li>Rendered scenes at ~17 FPS with 400 samples, showing plausible global illumination.</li>
+</ul>
