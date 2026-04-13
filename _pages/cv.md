@@ -17,6 +17,9 @@ Education
 
 Work experience
 ======
+* 3D Rendering Engineer, Dassault Systèmes, March 2026 - September 2026
+  * Real-time rendering using WebGPU and typescript
+
 * Computer Science and Mathematics tutoring, Université de Bordeaux, 2023-2024
   * Teaching skills
   * In-depth knowledge of the subject taught
