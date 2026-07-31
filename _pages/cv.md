@@ -36,9 +36,9 @@ Work experience
   
 Skills
 ======
-* HTML, CSS, javascript, PSQL, D3.js
+* HTML, CSS, javascript, typescript, D3.js
 * Python, C, C++, C#, java, OCaml
-* OpenGL
+* OpenGL, WebGPU
 * Qt Creator, Android Studio
 * Unity, Godot
 * Cmake, make
